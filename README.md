@@ -166,12 +166,12 @@ Note: On macOS, `isContainerEnv()` always returns `false` as containers are not 
 
 | Function         | x64  | arm64 |
 |------------------|------|-------|
-| cpuLoadAvg       | â   | â    |
-| cpuLimitCores    | â   | â    |
-| memUsage         | â   | â    |
-| memoryLimitBytes | â   | â    |
-| memoryUsedBytes  | â   | â    |
-| isContainerEnv   | â   | â    |
+| cpuLoadAvg       | ✅   | ✅    |
+| cpuLimitCores    | ✅   | ✅    |
+| memUsage         | ✅   | ✅    |
+| memoryLimitBytes | ✅   | ✅    |
+| memoryUsedBytes  | ✅   | ✅    |
+| isContainerEnv   | ✅   | ✅    |
 
 Note: kernel32.dll is part of the operating system, so no native binaries are
 needed. On Windows, `cpuLoadAvg()` reports the CPU busy fraction measured
